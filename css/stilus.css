@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1em;
+  color: #40514E;
+}
+h1 {
+  color: #bbe1fa;
+  margin: 50px auto 0 auto;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 5.62rem; /*16px 90px/16 = 562 --- 1em = 16px = 100%*/
+  line-height: 2;
+}
+h2 {
+  color: #bbe1fa;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #bbe1fa;
+  font-family: 'Cinzel Decorative', cursive;
+}
+hr {
+  border-style: dotted;
+  border: none;
+  border-bottom: 10px dotted;
+  width: 5%;
+  color: #1b262c;
+}
+p {
+  line-height: 2;
+}
+a {
+  color: #40514E;
+  font-family: 'Zilla Slab', serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+/* Parallax effect */
+.parallax {
+  /* The image used */
+  background-image: url("../kepek/hegyecske.png");
+
+  /* Set a specific height */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kepessegek {
+  background-color: #3282b8;
+}
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.vilag {
+  height: 200px;
+  width: 25%;
+  float: left; /* egy képet képes a szöveggel egy vonalba tenni */
+  margin-right: 30px;
+  margin-top: 70px;
+}
+.hollo {
+  height: 200px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.hegy {
+  height: 200px;
+  width: 300px;
+}
+/*.kepessegek-szöveg {
+  clear: right; --- a clear az ellentéte a floatnak ---
+}*/
+.felsoDoboz {
+  background-color: #0f4c75;
+  position: relative;
+  padding-top: 100px;
+}
+.kozepso-doboz {
+  /*margin: 100px 0; */
+  background-color: #ebf4fa;
+}
+.also-doboz {
+  background-color: #bbe1fa;
+  padding: 50px 0 20px;
+}
+.profilkep {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  padding: 100px 0;
+}
+.intro {
+  width: 500px;
+  margin: auto;
+}
+.kapcsolat-uzenet {
+  width: 60%;
+  margin: 40px auto 60px;
+}
+.myButton {
+	box-shadow: 11px 12px 28px -8px #030a01;
+	background-color:#0a0aff;
+	border-radius:42px;
+	border:3px solid #00999c;
+	display:inline-block;
+	cursor:wait;
+	color:#f5f5f5;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size:20px;
+	font-weight:bold;
+	padding:19px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#4b57db;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.contact-me {
+  padding: 100px 0;
+}
